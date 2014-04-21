@@ -107,6 +107,8 @@ if version >= 508 || !exists("did_vroom_syn_inits")
   HiLink vroomSlideEnhance    String
 
   HiLink vroomSlideNextItem   vroomSlideItem
+
+  delcommand HiLink
 endif
 
 let b:current_syntax = 'vroom'
